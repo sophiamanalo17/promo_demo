@@ -1,0 +1,100 @@
+ /*from adobe fonts*/
+ @import url("https://use.typekit.net/emy7ohq.css");/*gimlet*/
+ @import url("https://use.typekit.net/emy7ohq.css");/*futura*/
+ @import url("https://use.typekit.net/emy7ohq.css");/*archer*/
+
+body {
+	background-image: linear-gradient(
+    to bottom,
+    #ffc2c2,
+   #feffbd)
+}
+
+h1 {
+	font-family: "gimlet-display-compressed", serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 200px;
+	color: #fff982;
+	text-align: center;
+}
+
+h2 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+}
+
+p {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.words {
+	color: #84b5e3;
+	width: 75%;
+	display: block;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+
+#specialPara {
+	color: #3756a1;
+	font-size: 150;
+}
+
+#marq {
+	color: #84b5e3;
+	font-size: 100;
+	line-height: 10px;
+}
+
+#starring {
+	font-family: "gimlet-display-compressed", serif;
+	color: #3756a1;
+	line-height: 10px;
+	font-size: 100px;
+}
+
+.emphasis {
+	font-family: monospace;
+}
+
+.superEmphasis {
+	color: red;
+	width: 24%;
+	display: inline-block;
+	text-align: left;
+}
+
+.video{
+	width: 1120px; 
+    height: 630px;
+    bottom: 0; left: 0;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding: 0px;
+}
